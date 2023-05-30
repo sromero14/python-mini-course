@@ -1,13 +1,5 @@
-#Output & Input
+# Output & Input: print, input
 
-#print Hello World!
+# print Hello World!
 
-#print Hello {user}! using input
-
-#print int
-
-#print float
-
-# create a function
-
-# call the function
+# print Hello {user}! using input

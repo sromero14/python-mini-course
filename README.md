@@ -48,7 +48,6 @@ Welcome to Introduction to Python. This is the repository for Python mini-course
 |Class Repository|https://github.com/python-mini-course/python-mini-course.git|
 |Daily Presentation|https://mebergen-my.sharepoint.com/:f:/g/personal/lnam_me_bergen_edu/Eq1HOiuQyElDooeQ3uhCQd8BJ4qi1eF3221sBxgLm_Y-rA?e=37CouU|
 |Class Discord Channel| https://discord.gg/h6ggSdd2|
-|Google Classroom| https://classroom.google.com/c/NjEwMjY2MDU2NTE0?cjc=epu6cqm|
 
 <br/>
 
@@ -110,7 +109,7 @@ Welcome to Introduction to Python. This is the repository for Python mini-course
 
 2. Set Up Your Github Account on Your Local Computer
   - Set your username in Git: `git config --global user.name "YOUR_NAME"`
-  - Set an email address in Git: `git config --global user.email "YOUR_EMAIL"`
+  - Set an email address in Git: `git config --global user.email "YOUR_EMAIL"`<br />
   **If Mac gives errors try adding `sudo` in front of the commands**
 
 3. Fork Repository
@@ -170,6 +169,7 @@ Click Run -> Run Without Debugging
 ### Mac
 [Mac Shortcuts](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf)
 
+<br/>
 
 ## Contributing
 
