@@ -1,5 +1,5 @@
 # Python Mini Course
-The repository for Python mini-course 
+Welcome to Introduction to Python. This is the repository for Python mini-course.
 
 <br/>
 
@@ -41,6 +41,7 @@ The repository for Python mini-course
 |  |  |
 | ------------- | ------------- |
 |Class Repository|https://github.com/python-mini-course/python-mini-course.git|
+|Daily Presentation|https://mebergen-my.sharepoint.com/:f:/g/personal/lnam_me_bergen_edu/Eq1HOiuQyElDooeQ3uhCQd8BJ4qi1eF3221sBxgLm_Y-rA?e=37CouU|
 |Class Discord Channel| https://discord.gg/h6ggSdd2|
 |Google Classroom| https://classroom.google.com/c/NjEwMjY2MDU2NTE0?cjc=epu6cqm|
 
