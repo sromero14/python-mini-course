@@ -14,6 +14,7 @@ Welcome to Introduction to Python. This is the repository for Python mini-course
   - [Windows](#windows)
   - [Mac/Linux](#maclinux)
 * [Git Setup](#git-setup)
+* [File Types](#file-types)
 * [Run Python](#run-python)
   -[Run Python Code in Terminal](#run-python-code-in-terminal)
   -[Run Python Code in Visual Studio Code](#run-python-code-in-visual-studio-code)
@@ -136,6 +137,17 @@ Welcome to Introduction to Python. This is the repository for Python mini-course
   - Push to my Github: `git push origin main`
 
 ###
+
+<br/>
+
+## File Types
+| Extension | Name | Description |
+| ------------- | ------------- | ------------- |
+|.py| Python file | Most common Python coding file |
+|.ipynb| Jupyter notebook | Python file formated like a document |
+|.txt| Text file |A file that contains text only|
+|.md| README file | A formal format file for a programming repository|
+|.gitignore| gitignore file | A list of folders & files ignored by Git |
 
 <br/>
 

@@ -7,3 +7,7 @@
 #print int
 
 #print float
+
+# create a function
+
+# call the function
