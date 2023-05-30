@@ -1,2 +1,2 @@
 # python101
-The first python mini-course
+The first day material for python mini-course 
