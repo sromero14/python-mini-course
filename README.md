@@ -1,5 +1,5 @@
 # Python Mini Course
-The repository for python mini-course 
+The repository for Python mini-course 
 
 <br/>
 
@@ -9,11 +9,14 @@ The repository for python mini-course
   - [Contact Information](#contact-information)
   - [Class Resources](#class-resources)
 * [Environment Set Up](#environment-set-up)
-  1. [Installation Requirements](#installation-requirements)
-  2. [Git Setup](#git-setup)
+  - [Installation Requirements](#installation-requirements)
 * [Terminal Commands](#terminal-commands)
   - [Windows](#windows)
   - [Mac/Linux](#maclinux)
+* [Git Setup](#git-setup)
+* [Run Python](#run-python)
+  -[Run Python Code in Terminal](#run-python-code-in-terminal)
+  -[Run Python Code in Visual Studio Code](#run-python-code-in-visual-studio-code)
 * [Contributing](#contributing)
 * [License](#license)
 
@@ -52,17 +55,14 @@ The repository for python mini-course
 |Python3| https://www.python.org/|
 |Git| https://git-scm.com/downloads|
 
-**For Mac run following command in terminal before installing Git:**
+**For Mac, make sure to set PATH correctly**
+- Open the Command Palette (Cmd+Shift+P) 
+- Find & Run `Shell Command: Install 'code' command in PATH`
+
+**For Mac, run the following command in the terminal before installing Git:**
 ```
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
-
-### Git Setup
-1. Create [GitHub Account] (https://github.com/)
-2. Set your username in Git: `git config --global user.name "YOUR_NAME"`
-3. Set an email address in Git: `git config --global user.email "YOUR_EMAIL"`
-  <br/>
-**If Mac gives errors try adding `sudo` in front of the commands**
 
 <br/>
 
@@ -70,34 +70,85 @@ The repository for python mini-course
 ### Windows
 |  |  |
 | ------------- | ------------- |
+|dir| which will list all the files in the current directory.|
 |cd <directory>| moves you from the current directory to a specified |directory within the current directory.|
 |cd ..| will bring you back one directory.|
 |cd /| will bring you to your root directory (Not the same as your home directory which windows has 0 shortcuts for).|
-|dir| which will list all the files in the current directory.|
 |copy NUL <filename>| will create an empty file with that name in your current directory.|
 |del <filename>| will delete that file.|
 |mkdir <directoryname>| will create a new directory with that name in your current directory.|
 |rmdir <directory>| will delete that directory from your current directory.|
+|TAB| complete <directory> or <filename>|
+| code . | open the current directory in Visual Studio Code |
 
 ### Mac/Linux
 |  |  |
 | ------------- | ------------- |
+|ls |which will list all the files in the current directory.|
 |cd <directory> |moves you from the current directory to a specified directory within the current directory.|
 |cd .. |will bring you back one directory.|
 |cd / |will bring you to your root directory.|
 |cd ~ |will bring you back to your home directory.|
-|ls |which will list all the files in the current directory.|
 |touch <filename> |will create a file if it doesn't exist. |
 |rm <filename> |will delete a file|
 |mkdir <directoryname> |will create a new directory with that name in your current directory.|
 |rmdir <directory> |will delete that directory from your current directory.|
+|TAB| complete <directory> or <filename>|
+| code . | open the current directory in Visual Studio Code |
+| open . | open the current directory in finder |
 
+<br/>
+
+## Git Setup
+1. Sign Up for [GitHub] (https://github.com/)
+
+2. Set Up Your Github Account on Your Local Computer
+  - Set your username in Git: `git config --global user.name "YOUR_NAME"`
+  - Set an email address in Git: `git config --global user.email "YOUR_EMAIL"`
+  <br/>
+**If Mac gives errors try adding `sudo` in front of the commands**
+
+3. Fork Repository
+  Click Fork on the [Class Repository](https://github.com/python-mini-course/python-mini-course)
+
+4. Clone Repository
+  - Get a link to your repository by clicking `<> Code` button
+  - Clone your repository: `git clone YOUR_REPO_LINK`
+
+5. Repository Git Setup
+  - cd into your project repository `cd /python-mini-course`
+  - add remote class directory `git remote add class https://github.com/python-mini-course/python-mini-course.git`
+
+6. Commit
+  - Save your work by committing
+  - First stage all your changes: `git add .`
+  - Commit with a message: `git commit -m "YOUR_MESSAGE"`
+
+7. Push Changes
+  - Push or Sync all your changes to your code with Github by pushing `git push origin main`
+  **All of your code is saved in your Github account now**
+
+8. Pull Changes from the Class Repository
+  - Rebase: `git config pull.rebase true`
+  - Pull from the class repository: `git pull class main`
+  - Resolve any potential conflicts & commit if necessary
+  - Push to my Github: `git push origin main`
+
+###
+
+<br/>
+
+## Run Python
+### Run Python Code in Terminal
+`python3 /YOUR_PATH_TO_FILE/PYTHON_FILE.py`
+### Run Python Code in Visual Studio Code
+Click Run -> Run Without Debugging
 
 <br/>
 
 ## Contributing
 
-If you see an error or a place where content should be updated or improved, just fork this repository to your github account, make the change you'd like and then submit a pull request. If you're not able to make the change, file an [issue](https://github.com/python-mini-course/python-mini-course/issues/new).
+If you see an error or a place where content should be updated or improved, just fork this repository to your Github account, make the change you'd like and then submit a pull request. If you're not able to make the change, file an [issue](https://github.com/python-mini-course/python-mini-course/issues/new).
 
 ## License
 
