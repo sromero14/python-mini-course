@@ -1,3 +1,5 @@
-#print HelloWorld!
+#Output & Input
 
-#print Hello {user}! using formatted string
+#print Hello World!
+
+#print Hello {user}! using input
