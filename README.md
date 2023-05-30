@@ -14,10 +14,14 @@ Welcome to Introduction to Python. This is the repository for Python mini-course
   - [Windows](#windows)
   - [Mac/Linux](#maclinux)
 * [Git Setup](#git-setup)
+  - [Extra Git/Github Tutorial](#extra-gitgithub-tutorial)
 * [File Types](#file-types)
 * [Run Python](#run-python)
   -[Run Python Code in Terminal](#run-python-code-in-terminal)
   -[Run Python Code in Visual Studio Code](#run-python-code-in-visual-studio-code)
+* [Visual Studio Code Shortcuts](#visual-studio-code-shortcuts)
+  - [Windows](#window)
+  - [Mac](#mac)
 * [Contributing](#contributing)
 * [License](#license)
 
@@ -107,8 +111,7 @@ Welcome to Introduction to Python. This is the repository for Python mini-course
 2. Set Up Your Github Account on Your Local Computer
   - Set your username in Git: `git config --global user.name "YOUR_NAME"`
   - Set an email address in Git: `git config --global user.email "YOUR_EMAIL"`
-  <br/>
-**If Mac gives errors try adding `sudo` in front of the commands**
+  **If Mac gives errors try adding `sudo` in front of the commands**
 
 3. Fork Repository
   Click Fork on the [Class Repository](https://github.com/python-mini-course/python-mini-course)
@@ -136,7 +139,9 @@ Welcome to Introduction to Python. This is the repository for Python mini-course
   - Resolve any potential conflicts & commit if necessary
   - Push to my Github: `git push origin main`
 
-###
+### Extra Git/Github Tutorial
+[Introduction to Git](https://zarkom.notion.site/zarkom/Introduction-to-Git-ac396a0697704709a12b6a0e545db049)
+[Introduction to GitHub](https://zarkom.notion.site/zarkom/Introduction-to-GitHub-202af6f64bbd4299b15f238dcd09d2a7)
 
 <br/>
 
@@ -158,6 +163,13 @@ Welcome to Introduction to Python. This is the repository for Python mini-course
 Click Run -> Run Without Debugging
 
 <br/>
+
+## Visual Studio Code Shortcuts
+### Window 
+[Window Shortcuts](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf)
+### Mac
+[Mac Shortcuts](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf)
+
 
 ## Contributing
 
