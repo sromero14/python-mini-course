@@ -3,8 +3,10 @@
 # True, False
 
 # if, elif, else
+if True:
+    print("It's True")
 
-# and
+# &(and)
 
 # or
 
