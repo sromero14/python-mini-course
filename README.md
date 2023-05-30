@@ -1,2 +1,2 @@
-# python101
+# python
 The first day material for python mini-course 
