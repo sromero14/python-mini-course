@@ -140,8 +140,8 @@ Welcome to Introduction to Python. This is the repository for Python mini-course
   - Push to my Github: `git push origin main`
 
 ### Extra Git/Github Tutorial
-[Introduction to Git](https://zarkom.notion.site/zarkom/Introduction-to-Git-ac396a0697704709a12b6a0e545db049)
-[Introduction to GitHub](https://zarkom.notion.site/zarkom/Introduction-to-GitHub-202af6f64bbd4299b15f238dcd09d2a7)
+- [Introduction to Git](https://zarkom.notion.site/zarkom/Introduction-to-Git-ac396a0697704709a12b6a0e545db049)
+- [Introduction to GitHub](https://zarkom.notion.site/zarkom/Introduction-to-GitHub-202af6f64bbd4299b15f238dcd09d2a7)
 
 <br/>
 
